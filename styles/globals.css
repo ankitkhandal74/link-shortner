@@ -1,0 +1,209 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap');
+
+.body{
+  scrollbar-width: 0px;
+  font-family: 'Montserrat', Courier, monospace;
+}
+.html{
+  scrollbar-width: 0px;
+  font-family: 'Montserrat', Courier, monospace;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+  width: 80%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.button {
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  background-color: #0070f3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.result {
+  margin-top: 30px;
+}
+
+.resultHeading {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.link {
+  color: #0070f3;
+  text-decoration: none;
+  font-size: 1.2rem;
+  word-break: break-word;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+/* Add hover and focus effects for the button and input */
+.input:focus {
+  border-color: #0070f3;
+}
+
+.button:hover {
+  background-color: #005bb5;
+}
+
+.button:focus {
+  outline: none;
+  background-color: #005bb5;
+}
+
+
+.boxs{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (min-width: 768px) {
+  .header{
+    display: none;
+    
+  }
+}
+
+@media (max-width: 768px) {
+.headermd{
+  display: none;
+  
+}
+}
+
+.mainhaeder{
+  list-style: none;
+  
+
+}
+
+.headernav2{
+  gap: 20px;
+  margin-right: 40px;
+}
+
+/* HTML: <div class="loader"></div> */
+.loader {
+  width: 160px;
+  aspect-ratio: 1;
+  display: flex;
+  color: #000;
+  border: 10px solid;
+  box-sizing: border-box;
+  border-radius: 50%;
+  background: 
+    radial-gradient(circle 8px, currentColor 95%,#0000),
+    linear-gradient(currentColor 50%,#0000 0) 50%/8px 60% no-repeat;
+  animation: l1 30s infinite linear;
+}
+.loader:before {
+  content: "";
+  flex: 1;
+  background:linear-gradient(currentColor 50%,#0000 0) 50%/8px 80% no-repeat;
+  animation: inherit;
+}
+@keyframes l1 {
+  100% {transform: rotate(1turn)}
+}
+
+.bg-login{
+  background-image: url("https://png.pngtree.com/background/20230410/original/pngtree-powder-smoke-colorful-background-picture-image_2379658.jpg");
+}
+
+.hig{
+  width: 50vw;
+  height: 80vh;
+
+}
+
+.logind{
+  background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20231103/pngtree-abstract-texture-colorful-acrylic-paint-balls-image_13729913.png');
+  background-size: cover;
+} 
+
+.loginbox{
+  border: 4px solid rgb(59, 255, 255);
+  background: rgba(59, 255, 255, 0.40);
+  border-radius: 10px;
+  height: 350px;
+  padding: 20px;
+
+}
+
+.loginshow{
+  border: 4px solid rgb(59, 255, 255);
+  background: rgba(59, 255, 255, 0.60);
+  border-radius: 10px;
+  height: 350px;
+  min-width: 380px;
+  padding: 20px;
+  font-family: 'David', Courier, monospace;
+  align-items: center;
+}
+
+.userf{
+  font-family: "Edu VIC WA NT Beginner", system-ui;
+}
+
+.hlogo{
+  width: 4rem;
+  height: 4rem;
+}
+
+.headernav{
+  top: 2px;
+  right: 2px;
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  padding: 20px;
+  background: #2998ff;
+  border-radius: 12px;
+  width: 50vw;
+  height: 60vh;
+  gap: 4px;
+  font-size: 20px;
+}
