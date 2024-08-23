@@ -32,6 +32,8 @@ import { useState, useEffect, useRef } from 'react';
 import '@/styles/globals.css';
 import Header from '@/component/header';
 import { useRouter } from 'next/router';
+import AdScript1 from '@/component/AdScript1';
+import AdScript2 from '@/component/AdScript2';
 
 export default function BlogPage() {
   const [showStartButton, setShowStartButton] = useState(true);
@@ -148,22 +150,19 @@ export default function BlogPage() {
             <h1 className=' text-5xl font-bold'>
               How to Get an Instant Loan from the Bajaj Finserv App
             </h1>
-    <script type="text/javascript">
-	atOptions = {
-		'key' : 'fc3ba9500cf22df3d1d3b735582e752e',
-		'format' : 'iframe',
-		'height' : 60,
-		'width' : 468,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.topcreativeformat.com/fc3ba9500cf22df3d1d3b735582e752e/invoke.js"></script>
+          <div>
+               <AdScript1 />
+          </div>
           </div>
           {showStartButton && (
             <div className='flex justify-center'>
               <button onClick={handleStartButtonClick} className='text-xl bg-[#0e3aff] rounded-full border-slate-100 border  px-4 py-2 m-4 text-white'>Start Timer</button>
             </div>
           )}
+
+	<div>
+          <AdScript2 />
+        </div>
 
           {!showStartButton && !showScrollButton && (
             <div className=''>
