@@ -7,6 +7,7 @@ import { useRouter } from 'next/router';
 import AdScript1 from '@/component/AdScript1';
 import AdScript2 from '@/component/AdScript2';
 import AdManagerScript1 from '@/component/AdManagerScript1';
+import AdManagerScript2 from '@/component/AdManagerScript2';
 
 
 
@@ -128,6 +129,8 @@ export default function BlogPage() {
             <div> 
 	        <AdManagerScript1 />
 	    </div>
+	    <AdManagerScript2 />
+	    <AdManagerScript1 />
 	    <div>
                <AdScript2 />
             </div>
