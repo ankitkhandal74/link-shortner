@@ -8,6 +8,7 @@ import AdScript1 from '@/component/AdScript1';
 import AdScript2 from '@/component/AdScript2';
 import AdManagerScript1 from '@/component/AdManagerScript1';
 import AdManagerScript2 from '@/component/AdManagerScript2';
+import GoogleAd1 from '@/component/GoogleAd1';
 
 
 
@@ -133,6 +134,7 @@ export default function BlogPage() {
 	    <AdManagerScript1 />
 	    <div>
                <AdScript2 />
+	         <GoogleAd1 />
             </div>
           </div>
           {showStartButton && (
