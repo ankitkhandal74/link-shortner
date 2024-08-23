@@ -150,15 +150,15 @@ export default function BlogPage() {
             <h1 className=' text-5xl font-bold'>
               How to Get an Instant Loan from the Bajaj Finserv App
             </h1>
-          <div>
+          
                <AdScript1 />
-          </div>
-	  <div>
+         
+	  
+               <AdScript2 />
+          
+	  
                <AdScript1 />
-          </div>
-	  <div>
-               <AdScript1 />
-          </div>
+         
           </div>
           {showStartButton && (
             <div className='flex justify-center'>
@@ -167,12 +167,11 @@ export default function BlogPage() {
 	   
           )}
 
-	<div>
+	
           <AdScript2 />
-        </div>
-	<div>
+        
           <AdScript2 />
-        </div>
+        
 
           {!showStartButton && !showScrollButton && (
             <div className=''>
