@@ -1,32 +1,4 @@
-// pages/blog/How-to-Get-an-Instant-Loan-from-the-Bajaj-Finserv-App.js
 
-// import { useEffect } from 'react';
-// import { useRouter } from 'next/router';
-
-// export default function BlogPage() {
-//   const router = useRouter();
-//   const { originalUrl } = router.query;
-
-//   useEffect(() => {
-//     if (originalUrl) {
-//       // Redirect to the original URL if it's provided
-//       window.location.href = originalUrl;
-//     }
-//   }, [originalUrl]);
-
-//   if (!originalUrl) {
-//     return <div>Error: Original URL not provided</div>;
-//   }
-
-//   return (
-//     <div>
-//       <h1>Redirecting...</h1>
-//     </div>
-//   );
-// }
-
-
-// pages/[alias].js
 
 import { useState, useEffect, useRef } from 'react';
 import '@/styles/globals.css';
@@ -153,15 +125,12 @@ export default function BlogPage() {
             <h1 className=' text-5xl font-bold'>
               How to Get an Instant Loan from the Bajaj Finserv App
             </h1>
-              <AdManagerScript1 />
-               <AdScript1 />
-         
-	  
+            <div> 
+	        <AdManagerScript1 />
+	    </div>
+	    <div>
                <AdScript2 />
-          
-	  
-               <AdScript1 />
-         
+            </div>
           </div>
           {showStartButton && (
             <div className='flex justify-center'>
@@ -169,13 +138,6 @@ export default function BlogPage() {
             </div>
 	   
           )}
-
-	
-          <AdScript2 />
-        
-          <AdScript2 />
-        
-
           {!showStartButton && !showScrollButton && (
             <div className=''>
               <div className='timer flex items-center justify-center m-10'>
@@ -186,16 +148,10 @@ export default function BlogPage() {
             </div>
 	   
           )}
-          <div>
-          <AdScript2 />
-          </div>
+          
           <div className='my-10'>
             <p className='my-10'>In today's fast-paced world, getting instant access to funds can be crucial for meeting unexpected expenses or fulfilling personal goals. Bajaj Finserv offers a convenient solution through its app, allowing users to apply for personal loans quickly and easily. In this blog, we'll walk you through the steps to get an instant loan from the Bajaj Finserv app, complete with images for guidance.</p>
           </div>
-
-	<div>
-          <AdScript2 />
-        </div>
 
           {showScrollButton && (
             <div className='my-10 text-xl bg-[#0e3aff] rounded-full border-slate-100 border  px-4 py-2  text-white flex justify-center'>
