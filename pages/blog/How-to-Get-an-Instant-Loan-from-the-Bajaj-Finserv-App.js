@@ -153,13 +153,25 @@ export default function BlogPage() {
           <div>
                <AdScript1 />
           </div>
+	  <div>
+               <AdScript1 />
+          </div>
+	  <div>
+               <AdScript1 />
+          </div>
           </div>
           {showStartButton && (
             <div className='flex justify-center'>
               <button onClick={handleStartButtonClick} className='text-xl bg-[#0e3aff] rounded-full border-slate-100 border  px-4 py-2 m-4 text-white'>Start Timer</button>
             </div>
+	   <div>
+          <AdScript2 />
+        </div>
           )}
 
+	<div>
+          <AdScript2 />
+        </div>
 	<div>
           <AdScript2 />
         </div>
@@ -172,6 +184,9 @@ export default function BlogPage() {
 
               <p className='flex justify-center text-xl bg-[#0e3aff] rounded-full border-slate-100 border  px-4 py-2 m-4 text-white'> {timer} seconds</p>
             </div>
+	   <div>
+          <AdScript2 />
+        </div>
           )}
 
           <div className='my-10'>
