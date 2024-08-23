@@ -4,6 +4,7 @@ export default function Document() {
     return (
         <Html lang="en">
             <Head>
+                <meta name="google-adsense-account" content="ca-pub-1941359181651044" />
                 <link rel="icon" href="/Link__2_-removebg-preview.png" />
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
