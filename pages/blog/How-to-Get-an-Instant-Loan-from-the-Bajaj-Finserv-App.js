@@ -36,16 +36,6 @@ import AdScript1 from '@/component/AdScript1';
 import AdScript2 from '@/component/AdScript2';
 import AdManagerScript1 from '@/component/AdManagerScript1';
 
-const YourPage = () => {
-  return (
-    <div>
-      <h1>Your Page Content</h1>
-      <AdManagerScript />
-    </div>
-  );
-};
-
-export default YourPage;
 
 
 export default function BlogPage() {
