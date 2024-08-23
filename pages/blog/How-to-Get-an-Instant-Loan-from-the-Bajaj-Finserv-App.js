@@ -148,6 +148,16 @@ export default function BlogPage() {
             <h1 className=' text-5xl font-bold'>
               How to Get an Instant Loan from the Bajaj Finserv App
             </h1>
+    <script type="text/javascript">
+	atOptions = {
+		'key' : 'fc3ba9500cf22df3d1d3b735582e752e',
+		'format' : 'iframe',
+		'height' : 60,
+		'width' : 468,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.topcreativeformat.com/fc3ba9500cf22df3d1d3b735582e752e/invoke.js"></script>
           </div>
           {showStartButton && (
             <div className='flex justify-center'>
