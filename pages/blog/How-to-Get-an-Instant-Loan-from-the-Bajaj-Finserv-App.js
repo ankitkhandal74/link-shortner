@@ -164,9 +164,7 @@ export default function BlogPage() {
             <div className='flex justify-center'>
               <button onClick={handleStartButtonClick} className='text-xl bg-[#0e3aff] rounded-full border-slate-100 border  px-4 py-2 m-4 text-white'>Start Timer</button>
             </div>
-	   <div>
-          <AdScript2 />
-        </div>
+	   
           )}
 
 	<div>
