@@ -9,6 +9,7 @@ import AdScript2 from '@/component/AdScript2';
 import AdManagerScript1 from '@/component/AdManagerScript1';
 import AdManagerScript2 from '@/component/AdManagerScript2';
 import GoogleAd1 from '@/component/GoogleAd1';
+import GoogleAd2 from '@/component/GoogleAd2';
 
 
 
@@ -252,7 +253,9 @@ export default function BlogPage() {
 
           <p className='text-xl bg-[#0e3aff] rounded-full border-slate-100 border  px-4 py-2 m-4 text-white flex justify-center'>Redirect button will appear in {scrollButtonTimer} seconds...</p>
 
-
+          <div> 
+		   <GoogleAd2 />
+         </div>
           {showGoButton && (
             <div className='flex justify-center'>
               <button
