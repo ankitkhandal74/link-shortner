@@ -34,6 +34,19 @@ import Header from '@/component/header';
 import { useRouter } from 'next/router';
 import AdScript1 from '@/component/AdScript1';
 import AdScript2 from '@/component/AdScript2';
+import AdManagerScript1 from '@/component/AdManagerScript1';
+
+const YourPage = () => {
+  return (
+    <div>
+      <h1>Your Page Content</h1>
+      <AdManagerScript />
+    </div>
+  );
+};
+
+export default YourPage;
+
 
 export default function BlogPage() {
   const [showStartButton, setShowStartButton] = useState(true);
@@ -150,7 +163,7 @@ export default function BlogPage() {
             <h1 className=' text-5xl font-bold'>
               How to Get an Instant Loan from the Bajaj Finserv App
             </h1>
-          
+              <AdManagerScript1 />
                <AdScript1 />
          
 	  
