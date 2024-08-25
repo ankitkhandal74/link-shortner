@@ -1,7 +1,7 @@
 // pages/api/sitemap.js
 export default async function handler(req, res) {
   // Define the base URL of your website
-  const baseUrl = 'https://your-domain.com';
+  const baseUrl = 'https://shortner-olive.vercel.app';
 
   // Generate a list of URLs (you can fetch them from your database or define them statically)
   const pages = [
@@ -9,6 +9,8 @@ export default async function handler(req, res) {
     'about',
     'shop',
     'contact',
+    'blog/How-to-Get-an-Instant-Loan-from-the-Bajaj-Finserv-App',
+    
   ];
 
   // Generate sitemap XML
