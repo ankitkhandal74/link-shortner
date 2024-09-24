@@ -5,6 +5,7 @@ export default function Document() {
         <Html lang="en">
             <Head>
                 <meta name="google-adsense-account" content="ca-pub-1941359181651044" />
+                <meta name="google-site-verification" content="T6GVfzU1r-LutM3nsjLXK_1nAHD3XbcBQU_0hw6Gjl4" />
                 <link rel="icon" href="/Link__2_-removebg-preview.png" />
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
